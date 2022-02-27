@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <body>
+
+        <header id="header">
+            <div style="background-color:#6035bb; height: 10px;"></div>
+            <h1 id="title">StuPod</h1>
+            <h3 style="color:white; padding:20px; display: inline;">Hi, Sandy!</h3>
+
+            <!-- <img id="profileimg" src="images/profile.jpg"> -->
+
+            <div id="search" style="padding:20px;">
+                <input type="text" placeholder="Search">
+            </div>
+            
+        </header>
+
+        <nav>
+            <ul class="navbar">
+                <li class="navbaritem"><a class="navbarlink" href="feed.html">Feed</a></li>
+                <li class="navbaritem"><a class="navbarlink" href="messages.html" style="background-color:white; color:#6035bb">Messages</a></li>
+                <li class="navbaritem"><a class="navbarlink" href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+
+        <div class="messageaside">
+
+            <h3 style="padding:10px 10px 10px 30px; color:#6035bb">Messages</h3>
+            
+            <table cellspacing="0" cellpadding="0" style="border:none">
+
+                <tr><td style="padding: 10px;"><img class="chatimg" src="images/yutong.jpg"></td>
+                    <td><h4 style="margin:0">Yutong Liu</h4><p class="usermessagenew">Hi! I saw that you were looking ...</p></td>
+                </tr>
+                <tr><td style="padding: 10px;"><img class="chatimg" src="images/sweeris.jpg"></td>
+                    <td><h4 style="margin:0">Sweeris Vong</h4><p class="usermessagenew">Do you think you can check if ...</p></td>
+                </tr>
+                <tr><td style="padding: 10px;"><img class="chatimg" src="images/cristina.jpg"></td>
+                    <td><h4 style="margin:0">Cristina Nguyen</h4><p class="usermessagenew">I don't think you can bring a c... </p></td>
+                </tr>
+                <tr><td style="padding: 10px;"><img class="chatimg" src="images/hassan.jpg"></td>
+                    <td><h4 style="margin:0">Hassan Hage</h4><p class="usermessageold">No problem! Here is my numb... </p></td>
+                </tr>
+                <tr><td style="padding: 10px;"><img class="chatimg" src="images/jason.jpg"></td>
+                    <td><h4 style="margin:0">Jason Yeh</h4><p class="usermessageold">You: I was wondering if it were ...</p></td>
+                </tr>
+                <tr><td style="padding: 10px;"><img class="chatimg" src="images/victor.jpg"></td>
+                    <td><h4 style="margin:0">Victor Ouy</h4><p class="usermessageold">No problem!</p></td>
+                </tr>
+                <tr><td style="padding: 10px;"><img class="chatimg" src="images/ti.jpg"></td>
+                    <td><h4 style="margin:0">Jennifer Ti Nguyen</h4><p class="usermessageold">You: Great! I will let you...</p></td>
+                </tr>
+            </table>
+        </div>
+
+        <h1 style="text-align:center;color:#6035bb; margin-bottom:0;">Hassan Hage</h1>
+
+        <div class="messagetext" style=>
+            <img class="chatimg" src="images/hassan.jpg"> Good morning! I saw you were looking for a roomate for next semester. Have you found anyone yet?
+            <h class="messagetime">5:12PM</h>
+        </div>
+        <div class="messagetextuser">
+            <h class="messagetime">5:23PM</h>
+            Yes, I am! Would you be interested in a quick call to talk about it?<img class="chatimg" src="images/profile.jpg">
+        </div>
+        <div class="messagetext">
+            <img class="chatimg" src="images/hassan.jpg"> No problem! Here is my number: 123-123-1234
+            <h class="messagetime">5:25PM</h>
+        </div>
+
+
+        <form>
+            <input class="messagebox" type="text" id="chat" name="chat" placeholder="Type a message...">
+            <input class="submitbutton" type="submit" value="Send">
+        </form>
+
+    </body>
+</html>
