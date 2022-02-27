@@ -7,8 +7,15 @@ body {
   font-family: "Helvetica";
 }
 
+.loginlink {
+  display: inline;
+  color: #c1a3ff;
+  float: right;
+  margin: 5px 25px 0px 0px;
+}
+
 header {
-  height: 200px;
+  height: 180px;
   background-color: #6035bb;
   margin: 0px 50px 0px 50px;
   position: relative;
@@ -17,7 +24,17 @@ header {
 #title {
   color: white;
   size: 20px;
-  padding-left: 20px;
+  padding-left: 500px;
+}
+
+.logoimg {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: 725px;
+  margin-top: -50px;
+  position: relative;
+  object-fit: cover;
 }
 
 #search {
@@ -206,8 +223,8 @@ a.messagelink:visited {
 }
 
 .aptimg {
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 150px;
   display: inline-block;
   padding: 5px;
   object-fit: cover;
@@ -236,7 +253,7 @@ footer {
 .bio {
   float: left;
   width: 46.5%;
-  height: 665px;
+  height: 618px;
   border-radius: 20px;
   background-color: #e5e5e5;
   margin: 20px 0px 0px 50px;
